@@ -1,0 +1,91 @@
+
+@media (max-width:1199px){
+   .hrLine{
+    width:600px;
+    opacity:.4;
+
+   }
+  .input{
+    display:flex;
+    flex-wrap: wrap;
+    position:relative;
+    top:0px;
+    left:0px;
+  }
+ 
+  .about{
+  
+  margin-left:300px;
+ overflow-x:hidden;
+  width:80vw;
+  margin-top:30px;
+  padding-right :400px;
+  
+}
+.inputBox{
+  
+  border:2px solid red;
+  width:700px;
+  border-radius:30px;
+   height:340px;
+   background:linear-gradient(180deg,red ,yellow);
+   box-shadow: 0px 3px 15px;
+   position:relative;
+   left:200px;
+   
+ 
+}
+
+.add{
+  padding:7px 20px;
+  border-radius:40px;
+  border:none;
+  background:rgb(222, 119, 119);
+  color:white;
+  position:relative;
+  left:20px;
+  top:0px;
+}
+.add:active{
+  padding:8px 21px;
+  font-size:20px;
+  background:blue;
+}
+.BodyAdjust{
+  position:relative;
+  top:-270px;
+  left:250px;
+  z-index:1;
+}
+
+.contain{
+  display:grid;
+  padding:20px;
+  
+  width:300px;
+ grid-area:navbar;
+  grid-template-areas:'navbar navbar';
+ 
+}
+.boxdesign2{
+  display:flex;
+ flex-direction: row;
+ width:60vw;
+border:none;
+
+  margin-left:20px;
+  margin-bottom:20px;
+  padding:20px;
+  border-radius: 30px;
+  background:rgb(201, 205, 167);
+  box-shadow: 0 3px 15px;
+}
+.delete2{
+    border:none;
+  background:none;
+  position:relative;
+  left:500px;
+  top:-60px;
+  margin-left:5px;
+}
+}
